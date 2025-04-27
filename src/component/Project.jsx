@@ -22,11 +22,11 @@ const Project = () => {
   return (
     
     <section className="flex flex-col gap-y-[50px] p-2">
-    <h2 className="font-bold text-[30px] text-center">PROJECT</h2>
+    <h2 className="text-slate-100 font-bold text-[30px] text-center">PROJECT</h2>
   
     <section className="flex  justify-center gap-8">
       {/* Card 1 */}
-      <article className="flex flex-col gap-y-4 p-4 border border-gray-300 rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 ease-in-out cursor-pointer  bg-white">
+      <article className="flex flex-col gap-y-4 p-4 border border-gray-300 rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 ease-in-out cursor-pointer  bg-slate-100 ">
         <img
           className="w-[500px] h-[300px] object-cover rounded-xl hover:brightness-90 transition duration-300"
           src={restaurant2}

@@ -15,7 +15,7 @@ const Education = () => {
   return (
     <>
     <section className="flex flex-col gap-y-[30px] p-8">
-  <h2 className="font-bold text-[30px] text-center">Education</h2>
+  <h2 className="text-slate-100 font-bold text-[30px] text-center ">Education</h2>
 
   <article className="flex justify-between border border-solid border-black p-[30px] rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300">
     <article className="flex flex-col gap-y-[20px]">

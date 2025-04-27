@@ -9,8 +9,8 @@ const Header = () => {
       <article className="name_position flex flex-col text-left">
         <span className="text-[30px] font-semibold text-gray-300">Full Stack Developer</span>
         <article className="flex flex-col text-left">
-          <span className="text-[150px] font-bold text-black tracking-wide text-shadow-lg hover:text-green-600 transition duration-500">Gaga</span>
-          <span className="text-[150px] font-bold text-black ml-[150px] tracking-wide text-shadow-lg hover:text-green-600 transition duration-500">Chituashvili</span>
+          <span className="text-[150px] font-bold text-slate-200 tracking-wide text-shadow-lg hover:text-green-600 transition duration-500">Gaga</span>
+          <span className="text-[150px] font-bold text-slate-200 ml-[150px] tracking-wide text-shadow-lg hover:text-green-600 transition duration-500">Chituashvili</span>
         </article>
       </article>
       <article className="flex flex-col gap-y-[30px] items-center">
