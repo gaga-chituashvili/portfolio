@@ -56,6 +56,7 @@ const Education = () => {
           </div>
           <img
             src={html_css}
+            alt="react js"
             onClick={() => openPdf(certificates[2].file)}
             className="w-[250px] h-[200px] bg-gray-300 rounded-xl hover:brightness-90 cursor-pointer flex items-center justify-center text-gray-700 text-lg"
           />
@@ -73,6 +74,7 @@ const Education = () => {
           </div>
           <img
             src={js}
+            alt="js"
             onClick={() => openPdf(certificates[1].file)}
             className="w-[250px] h-[200px] bg-gray-300 rounded-xl hover:brightness-90 cursor-pointer flex items-center justify-center text-gray-700 text-lg"
           />
@@ -90,6 +92,7 @@ const Education = () => {
           </div>
           <img
             src={reactjs}
+            alt="html & css"
             onClick={() => openPdf(certificates[0].file)}
             className="w-[250px] h-[200px] bg-gray-300 rounded-xl hover:brightness-90 cursor-pointer flex items-center justify-center text-gray-700 text-lg"
           />
