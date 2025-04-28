@@ -26,7 +26,7 @@ const Education = () => {
           Education
         </h2>
 
-        <article className="flex items-center justify-between border border-black p-8 rounded-2xl shadow-md hover:shadow-md hover:shadow-slate-100 transition-shadow duration-300 bg-slate-200">
+        <article className="ed4 flex items-center justify-between border border-black p-8 rounded-2xl shadow-md hover:shadow-md hover:shadow-slate-100 transition-shadow duration-300 bg-slate-200">
           <div className="flex flex-col gap-4 text-center">
             <span className="text-xl font-bold text-gray-800">
               Frontend Development - Python
@@ -44,7 +44,7 @@ const Education = () => {
           </button>
         </article>
 
-        <article className="flex items-center justify-between border border-black p-8 rounded-2xl shadow-md hover:shadow-md hover:shadow-slate-100 transition-shadow duration-300 bg-slate-200">
+        <article className="ed3 flex items-center justify-between border border-black p-8 rounded-2xl shadow-md hover:shadow-md hover:shadow-slate-100 transition-shadow duration-300 bg-slate-200">
           <div className="flex flex-col gap-4 text-center">
             <span className="text-xl font-bold text-gray-800">
               Frontend Development - React JS
@@ -62,7 +62,7 @@ const Education = () => {
           />
         </article>
 
-        <article className="flex items-center justify-between border border-black p-8 rounded-2xl shadow-md hover:shadow-md hover:shadow-slate-100 transition-shadow duration-300 bg-slate-200">
+        <article className="ed2 flex items-center justify-between border border-black p-8 rounded-2xl shadow-md hover:shadow-md hover:shadow-slate-100 transition-shadow duration-300 bg-slate-200">
           <div className="flex flex-col gap-4 text-center">
             <span className="text-xl font-bold text-gray-800">
               Frontend Development - JavaScript
@@ -80,7 +80,7 @@ const Education = () => {
           />
         </article>
 
-        <article className="flex items-center justify-between border border-black p-8 rounded-2xl shadow-md hover:shadow-md hover:shadow-slate-100 transition-shadow duration-300 bg-slate-200">
+        <article className="ed1 flex items-center justify-between border border-black p-8 rounded-2xl shadow-md hover:shadow-md hover:shadow-slate-100 transition-shadow duration-300 bg-slate-200">
           <div className="flex flex-col gap-4 text-center">
             <span className="text-xl font-bold text-gray-800">
               Frontend Development - HTML & CSS

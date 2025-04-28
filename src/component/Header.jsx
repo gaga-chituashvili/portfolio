@@ -5,16 +5,16 @@ import download from "./img/download.svg";
 
 const Header = () => {
   return (
-    <section className="name_photo flex justify-between gap-x-[50px] px-[30px] py-[50px] bg-gradient-to-r text-white">
+    <section className="header flex justify-between gap-x-[50px] px-[30px] py-[50px] bg-gradient-to-r text-white">
       <article className="name_position flex flex-col text-left">
         <span className="text-[30px] font-semibold text-gray-300">
           Full Stack Developer
         </span>
-        <article className="flex flex-col text-left">
-          <span className="text-[150px] font-bold text-slate-200 tracking-wide text-shadow-lg hover:text-green-600 transition duration-500">
+        <article className="name_surname flex flex-col text-left">
+          <span className="name text-[150px] font-bold text-slate-200 tracking-wide text-shadow-lg hover:text-green-600 transition duration-500">
             Gaga
           </span>
-          <span className="text-[150px] font-bold text-slate-200 ml-[150px] tracking-wide text-shadow-lg hover:text-green-600 transition duration-500">
+          <span className="surname text-[150px] font-bold text-slate-200 ml-[150px] tracking-wide text-shadow-lg hover:text-green-600 transition duration-500">
             Chituashvili
           </span>
         </article>

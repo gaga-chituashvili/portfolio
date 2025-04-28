@@ -24,7 +24,7 @@ const Project = () => {
         PROJECT
       </h2>
 
-      <section className="flex  justify-center gap-8">
+      <section className="project_section flex  justify-center gap-8">
         <article
           onClick={geoRestourantClick}
           className="flex flex-col gap-y-4 p-4 border border-gray-300 rounded-2xl shadow-w hover:shadow-2xl transition-all duration-300 ease-in-out cursor-pointer  bg-slate-200 "

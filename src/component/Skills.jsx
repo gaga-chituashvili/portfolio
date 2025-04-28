@@ -32,6 +32,9 @@ const Skills = () => {
           API Integration
         </span>
         <span className="text-2xl font-bold text-gray-700  hover:text-green-600 transition-colors duration-300 cursor-pointer">
+        SEO 
+        </span>
+        <span className="text-2xl font-bold text-gray-700  hover:text-green-600 transition-colors duration-300 cursor-pointer">
           Html & Css
         </span>
         <span className="text-2xl font-bold text-gray-700  hover:text-green-600 transition-colors duration-300 cursor-pointer">
@@ -59,6 +62,9 @@ const Skills = () => {
           API Integration
         </span>
         <span className="text-2xl font-bold text-gray-700  hover:text-green-600 transition-colors duration-300 cursor-pointer">
+        SEO 
+        </span>
+        <span className="text-2xl font-bold text-gray-700  hover:text-green-600 transition-colors duration-300 cursor-pointer">
           Html & Css
         </span>
         <span className="text-2xl font-bold text-gray-700  hover:text-green-600 transition-colors duration-300 cursor-pointer">
@@ -84,6 +90,9 @@ const Skills = () => {
         </span>
         <span className="text-2xl font-bold text-gray-700 hover:text-green-600 transition-colors duration-300 cursor-pointer">
           API Integration
+        </span>
+        <span className="text-2xl font-bold text-gray-700  hover:text-green-600 transition-colors duration-300 cursor-pointer">
+        SEO 
         </span>
       </section>
     </section>
@@ -91,3 +100,4 @@ const Skills = () => {
 };
 
 export default Skills;
+
