@@ -8,7 +8,7 @@ const Contact = () => {
     window.open("mailto:gagachituashvili7@gmail.com", "_blank");
   };
   return (
-    <section className="flex flex-col gap-[50px] p-8">
+    <section className="contact_section flex flex-col gap-[50px] p-8">
       <h2 className="text-[36px] font-extrabold text-center text-slate-100">
         Contact Me
       </h2>
@@ -18,16 +18,16 @@ const Contact = () => {
           onClick={tell}
           className="flex items-center gap-4 text-slate-100 hover:text-green-600 cursor-pointer text-2xl font-semibold transition duration-300"
         >
-          <span className="text-3xl">📞</span>
-          <span>(+995) 595-75-61-75</span>
+          <span className="tell_logo text-3xl">📞</span>
+          <span className="tell">(+995) 595-75-61-75</span>
         </div>
 
         <div
           onClick={mail}
           className="flex items-center gap-4 text-slate-100 hover:text-green-600 cursor-pointer text-2xl font-semibold transition duration-300"
         >
-          <span className="text-3xl">✉️</span>
-          <span>gagachituashvili7@gmail.com</span>
+          <span className="email_logo text-3xl">✉️</span>
+          <span className="email">gagachituashvili7@gmail.com</span>
         </div>
       </article>
     </section>

@@ -27,7 +27,7 @@ const facebookClick = () => {
 
 const Social = () => {
   return (
-    <section className="flex gap-8 items-center justify-center p-8">
+    <section className="social flex gap-8 items-center justify-center p-8">
       <img
         className="w-12 cursor-pointer hover:scale-110 transition-transform duration-300 hover:brightness-90"
         onClick={linkedinClick}

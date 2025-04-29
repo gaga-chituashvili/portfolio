@@ -4,7 +4,7 @@ import ScrollUp from "./component/ScrollUp";
 
 function App() {
   return (
-    <div className="bg-slate-800">
+    <div className=" bg-slate-800">
       <Home />
       <ScrollUp/>
     </div>

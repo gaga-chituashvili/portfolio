@@ -30,7 +30,7 @@ const Project = () => {
           className="flex flex-col gap-y-4 p-4 border border-gray-300 rounded-2xl shadow-w hover:shadow-2xl transition-all duration-300 ease-in-out cursor-pointer  bg-slate-200 "
         >
           <img
-            className="w-[500px] h-[300px] object-cover rounded-xl hover:brightness-90 transition duration-300"
+            className="project w-[500px] h-[300px] object-cover rounded-xl hover:brightness-90 transition duration-300"
             src={restaurant2}
             alt="restaurant"
           />
@@ -42,7 +42,7 @@ const Project = () => {
           className="flex flex-col gap-y-4 p-4 border border-gray-300 rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 ease-in-out cursor-pointer  bg-slate-200"
         >
           <img
-            className="w-[500px] h-[300px] object-cover rounded-xl hover:brightness-90 transition duration-300"
+            className="project w-[500px] h-[300px] object-cover rounded-xl hover:brightness-90 transition duration-300"
             src={kolhs}
             alt="kolhs"
           />
@@ -54,7 +54,7 @@ const Project = () => {
           className="flex flex-col gap-y-4 p-4 border border-gray-300 rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 ease-in-out cursor-pointer  bg-slate-200"
         >
           <img
-            className="w-[500px] h-[300px] object-cover rounded-xl hover:brightness-90 transition duration-300"
+            className="project w-[500px] h-[300px] object-cover rounded-xl hover:brightness-90 transition duration-300"
             src={restaurant}
             alt="restaurant"
           />
@@ -66,7 +66,7 @@ const Project = () => {
           className="flex flex-col gap-y-4 p-4 border border-gray-300 rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 ease-in-out cursor-pointer bg-slate-200"
         >
           <img
-            className="w-[500px] h-[300px] object-cover rounded-xl hover:brightness-90 transition duration-300"
+            className="project w-[500px] h-[300px] object-cover rounded-xl hover:brightness-90 transition duration-300"
             src={guitar}
             alt="guitar"
           />

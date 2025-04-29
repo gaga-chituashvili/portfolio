@@ -38,7 +38,7 @@ const Education = () => {
           </div>
           <button
             onClick={() => openPdf(certificates.file)}
-            className="w-[250px] h-[200px] bg-gray-300 rounded-xl hover:brightness-90 cursor-pointer flex items-center justify-center text-gray-700 text-lg"
+            className="ed_img w-[250px] h-[200px] bg-gray-300 rounded-xl hover:brightness-90 cursor-pointer flex items-center justify-center text-gray-700 text-lg"
           >
             Add Soon
           </button>
@@ -58,7 +58,7 @@ const Education = () => {
             src={html_css}
             alt="react js"
             onClick={() => openPdf(certificates[2].file)}
-            className="w-[250px] h-[200px] bg-gray-300 rounded-xl hover:brightness-90 cursor-pointer flex items-center justify-center text-gray-700 text-lg"
+            className="ed_img w-[250px] h-[200px] bg-gray-300 rounded-xl hover:brightness-90 cursor-pointer flex items-center justify-center text-gray-700 text-lg"
           />
         </article>
 
@@ -76,7 +76,7 @@ const Education = () => {
             src={js}
             alt="js"
             onClick={() => openPdf(certificates[1].file)}
-            className="w-[250px] h-[200px] bg-gray-300 rounded-xl hover:brightness-90 cursor-pointer flex items-center justify-center text-gray-700 text-lg"
+            className="ed_img w-[250px] h-[200px] bg-gray-300 rounded-xl hover:brightness-90 cursor-pointer flex items-center justify-center text-gray-700 text-lg"
           />
         </article>
 
@@ -94,7 +94,7 @@ const Education = () => {
             src={reactjs}
             alt="html & css"
             onClick={() => openPdf(certificates[0].file)}
-            className="w-[250px] h-[200px] bg-gray-300 rounded-xl hover:brightness-90 cursor-pointer flex items-center justify-center text-gray-700 text-lg"
+            className="ed_img w-[250px] h-[200px] bg-gray-300 rounded-xl hover:brightness-90 cursor-pointer flex items-center justify-center text-gray-700 text-lg"
           />
         </article>
 
@@ -113,7 +113,7 @@ const Education = () => {
 
       {selectedPdf && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50 p-4"
+          className="pdf fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50 p-4"
           onClick={() => setSelectedPdf(false)}
         >
           <div className="bg-white rounded-lg overflow-hidden w-full max-w-4xl h-[90%] relative">
