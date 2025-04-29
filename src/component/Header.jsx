@@ -5,7 +5,7 @@ import download from "./img/download.svg";
 
 const Header = () => {
   return (
-    <section className="header flex justify-between gap-x-[50px] px-[30px] py-[50px] bg-gradient-to-r text-white">
+    <header className="flex justify-between gap-x-[50px] px-[30px] py-[50px] bg-gradient-to-r text-white">
       <article className="name_position flex flex-col text-left">
         <span className="text-[30px] font-semibold text-gray-300">
           Full Stack Developer
@@ -32,7 +32,7 @@ const Header = () => {
           </button>
         </a>
       </article>
-    </section>
+    </header>
   );
 };
 

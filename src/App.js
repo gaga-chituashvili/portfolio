@@ -6,7 +6,7 @@ function App() {
   return (
     <div className=" bg-slate-800">
       <Home />
-      <ScrollUp/>
+      <ScrollUp />
     </div>
   );
 }

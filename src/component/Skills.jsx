@@ -29,10 +29,13 @@ const Skills = () => {
           Git / GitHub
         </span>
         <span className="text-2xl font-bold text-gray-700  hover:text-green-600 transition-colors duration-300 cursor-pointer">
+          SQL
+        </span>
+        <span className="text-2xl font-bold text-gray-700  hover:text-green-600 transition-colors duration-300 cursor-pointer">
           API Integration
         </span>
         <span className="text-2xl font-bold text-gray-700  hover:text-green-600 transition-colors duration-300 cursor-pointer">
-        SEO 
+          SEO
         </span>
         <span className="text-2xl font-bold text-gray-700  hover:text-green-600 transition-colors duration-300 cursor-pointer">
           Html & Css
@@ -59,10 +62,13 @@ const Skills = () => {
           Git / GitHub
         </span>
         <span className="text-2xl font-bold text-gray-700  hover:text-green-600 transition-colors duration-300 cursor-pointer">
+          SQL
+        </span>
+        <span className="text-2xl font-bold text-gray-700  hover:text-green-600 transition-colors duration-300 cursor-pointer">
           API Integration
         </span>
         <span className="text-2xl font-bold text-gray-700  hover:text-green-600 transition-colors duration-300 cursor-pointer">
-        SEO 
+          SEO
         </span>
         <span className="text-2xl font-bold text-gray-700  hover:text-green-600 transition-colors duration-300 cursor-pointer">
           Html & Css
@@ -88,11 +94,14 @@ const Skills = () => {
         <span className="text-2xl font-bold text-gray-700 hover:text-green-600 transition-colors duration-300 cursor-pointer">
           Git / GitHub
         </span>
+        <span className="text-2xl font-bold text-gray-700  hover:text-green-600 transition-colors duration-300 cursor-pointer">
+          SQL
+        </span>
         <span className="text-2xl font-bold text-gray-700 hover:text-green-600 transition-colors duration-300 cursor-pointer">
           API Integration
         </span>
         <span className="text-2xl font-bold text-gray-700  hover:text-green-600 transition-colors duration-300 cursor-pointer">
-        SEO 
+          SEO
         </span>
       </section>
     </section>
@@ -100,4 +109,3 @@ const Skills = () => {
 };
 
 export default Skills;
-
