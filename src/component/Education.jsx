@@ -120,7 +120,7 @@ const Education = () => {
             <iframe
               src={selectedPdf}
               title="Certificate PDF"
-              className="w-full h-full"
+              className="w-full h-full object-contain"
             ></iframe>
             <button
               onClick={() => setSelectedPdf(true)}
