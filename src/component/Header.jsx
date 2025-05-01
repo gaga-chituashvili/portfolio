@@ -1,6 +1,7 @@
 import React from "react";
 import myimg from "./img/myimg.png";
 import CV_EN from "../cv/CV_EN.pdf";
+import CoverLetter from "./certificate/CoverLetter.pdf"
 import download from "./img/download.svg";
 
 const Header = () => {
@@ -25,6 +26,12 @@ const Header = () => {
           src={myimg}
           alt="My Portrait"
         />
+         <a href={CoverLetter} download="Cover Letter.pdf">
+          <button className="bg-slate-400 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-lg transition-all duration-300 flex items-center gap-x-[5px] hover:scale-105 transform">
+            Cover Letter
+            <img className="w-6" src={download} alt="Download Icon" />
+          </button>
+        </a>
         <a href={CV_EN} download="Gaga_Chituashvili_CV.pdf">
           <button className="bg-slate-400 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-lg transition-all duration-300 flex items-center gap-x-[5px] hover:scale-105 transform">
             Resume
