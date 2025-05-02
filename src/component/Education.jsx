@@ -32,7 +32,7 @@ const Education = () => {
         <article className="ed4 flex items-center justify-between border border-black p-8 rounded-2xl shadow-md hover:shadow-md hover:shadow-slate-100 transition-shadow duration-300 bg-slate-200">
           <div className="flex flex-col gap-4 text-center">
             <span className="text-xl font-bold text-gray-800">
-              Frontend Development - Python
+              Full Stack Development - Python
             </span>
             <span className="text-lg text-gray-600">
               Academy of Digital Industries
