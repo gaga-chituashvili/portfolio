@@ -2,14 +2,17 @@ import React, { useState } from "react";
 import certificate1 from "./certificate/certificate1.pdf";
 import certificate2 from "./certificate/certificate2.pdf";
 import certificate3 from "./certificate/certificate3.pdf";
+import certificate4 from "./certificate/certificate4.pdf";
 import html_css from "./img/html_css.png";
 import js from "./img/js.png";
 import reactjs from "./img/reactjs.png";
+import python from "./img/python.png";
 
 const certificates = [
   { file: certificate1 },
   { file: certificate2 },
   { file: certificate3 },
+  { file: certificate4 },
 ];
 
 const Education = () => {
@@ -34,14 +37,15 @@ const Education = () => {
             <span className="text-lg text-gray-600">
               Academy of Digital Industries
             </span>
-            <span className="text-base text-gray-500">---</span>
+            <span className="text-base text-gray-500">02/05/2025</span>
           </div>
-          <button
-            onClick={() => openPdf(certificates.file)}
+          <img
+            src={python}
+            alt="python"
+            onClick={() => openPdf(certificates[3].file)}
             className="ed_img w-[250px] h-[200px] bg-gray-300 rounded-xl hover:brightness-90 cursor-pointer flex items-center justify-center text-gray-700 text-lg"
-          >
-            Add Soon
-          </button>
+          />
+        
         </article>
 
         <article className="ed3 flex items-center justify-between border border-black p-8 rounded-2xl shadow-md hover:shadow-md hover:shadow-slate-100 transition-shadow duration-300 bg-slate-200">
