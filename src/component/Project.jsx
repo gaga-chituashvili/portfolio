@@ -15,7 +15,7 @@ const Project = () => {
     window.open("https://kolhs.netlify.app", "_blank");
   };
   const geoRestourantClick = () => {
-    window.open("google.com", "_blank");
+    window.open("https://georgianrestaurant-diiwi.ondigitalocean.app", "_blank");
   };
 
   return (
