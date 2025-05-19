@@ -3,6 +3,7 @@ import guitar from "./img/guitar.jpg";
 import restaurant from "./img/restaurant.png";
 import kolhs from "./img/kolhs.png";
 import restaurant2 from "./img/restaurant2.png";
+import countries from "./img/countries1.png"
 
 const Project = () => {
   const guitarClick = () => {
@@ -17,6 +18,10 @@ const Project = () => {
   const geoRestourantClick = () => {
     window.open("https://georestaurant-mch7f.ondigitalocean.app", "_blank");
   };
+    const restCountries = () => {
+    window.open("https://restcountries3.netlify.app", "_blank");
+  };
+
 
   return (
     <section className="flex flex-col gap-y-[50px] p-2">
@@ -25,6 +30,17 @@ const Project = () => {
       </h2>
 
       <section className="project_section flex  justify-center gap-8">
+         <article
+          onClick={restCountries}
+          className="flex flex-col gap-y-4 p-4 border border-gray-300 rounded-2xl shadow-w hover:shadow-2xl transition-all duration-300 ease-in-out cursor-pointer  bg-slate-200 "
+        >
+          <img
+            className="project w-[500px] h-[300px] object-cover rounded-xl hover:brightness-90 transition duration-300"
+            src={countries}
+            alt="restaurant"
+          />
+          <span className="text-center font-semibold">Rest Countries</span>
+        </article>
         <article
           onClick={geoRestourantClick}
           className="flex flex-col gap-y-4 p-4 border border-gray-300 rounded-2xl shadow-w hover:shadow-2xl transition-all duration-300 ease-in-out cursor-pointer  bg-slate-200 "
