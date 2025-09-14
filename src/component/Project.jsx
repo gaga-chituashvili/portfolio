@@ -16,7 +16,7 @@ const Project = () => {
     window.open("https://kolhs.netlify.app", "_blank");
   };
   const geoRestourantClick = () => {
-    window.open("https://georestaurant-mch7f.ondigitalocean.app", "_blank");
+    window.open("https://georgianrestaurant.onrender.com", "_blank");
   };
     const restCountries = () => {
     window.open("https://restcountries3.netlify.app", "_blank");
