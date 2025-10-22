@@ -11,7 +11,7 @@ import Header from "../component/Header";
 
 const Home = () => {
   return (
-    <section className="home_page flex flex-col p-[50px] gap-y-[150px]">
+    <section className="home_page flex flex-col p-2 md:p-12 gap-y-36">
       <Header />
       <Skills />
       <Education />

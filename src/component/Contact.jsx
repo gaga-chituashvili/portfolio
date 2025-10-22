@@ -9,7 +9,7 @@ const Contact = () => {
   };
   return (
     <section className="contact_section flex flex-col gap-[50px] p-8">
-      <h2 className="text-[36px] font-extrabold text-center text-slate-100">
+      <h2 className="text-2xl md:text-4xl font-extrabold text-center text-slate-100">
         Contact Me
       </h2>
 

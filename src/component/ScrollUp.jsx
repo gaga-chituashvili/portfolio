@@ -24,12 +24,13 @@ const ScrollUp = () => {
   return (
     <>
       {showButton && (
-        <img
+        <button
           onClick={scrollUp}
-          className="scroll w-12 h-12 rounded-full bg-slate-400 fixed bottom-5 right-5 m-5 cursor-pointer opacity-90 transition-all duration-300 ease-in-out flex justify-center items-center hover:bg-slate-800 hover:transform hover:translate-y-[-5px] hover:opacity-100"
-          src={scrollup}
-          alt="scroll up"
-        />
+          className="fixed bottom-5 right-5 w-14 h-14 bg-gradient-to-tr from-green-400 to-blue-500 rounded-full shadow-lg hover:shadow-2xl flex justify-center items-center transition-all duration-300 transform hover:-translate-y-2 hover:scale-110"
+          aria-label="Scroll to top"
+        >
+          <img src={scrollup} alt="scroll up" className="w-6 h-6" />
+        </button>
       )}
     </>
   );
