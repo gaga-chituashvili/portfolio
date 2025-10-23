@@ -21,7 +21,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section className="h-28 bg-gradient-to-r from-slate-200 to-slate-100 shadow-md rounded-xl flex items-center overflow-hidden relative">
+    <section className="h-28 bg-gradient-to-r from-slate-200 to-slate-100 shadow-md rounded-xl flex items-center overflow-hidden relative animate-skillFadeIn">
       <Marquee speed={50} pauseOnHover={true} gradient={false}>
         {skills.map((skill, index) => (
           <span

@@ -1,4 +1,5 @@
 import React from "react";
+import { Phone, Mail } from "lucide-react";
 
 const Contact = () => {
   const tell = () => {
@@ -8,7 +9,7 @@ const Contact = () => {
     window.open("mailto:gagachituashvili7@gmail.com", "_blank");
   };
   return (
-    <section className="contact_section flex flex-col gap-[50px] p-8">
+    <section className="flex flex-col gap-12 p-8">
       <h2 className="text-2xl md:text-4xl font-extrabold text-center text-slate-100">
         Contact Me
       </h2>
@@ -18,16 +19,18 @@ const Contact = () => {
           onClick={tell}
           className="flex items-center gap-4 text-slate-100 hover:text-green-600 cursor-pointer text-2xl font-semibold transition duration-300"
         >
-          <span className="tell_logo text-3xl">📞</span>
-          <span className="tell">(+995) 595-75-61-75</span>
+          <Phone className="text-green-200" />
+          <span className="text-xl md:text-2xl">(+995) 595-75-61-75</span>
         </div>
 
         <div
           onClick={mail}
           className="flex items-center gap-4 text-slate-100 hover:text-green-600 cursor-pointer text-2xl font-semibold transition duration-300"
         >
-          <span className="email_logo text-3xl">✉️</span>
-          <span className="email">gagachituashvili7@gmail.com</span>
+          <Mail className="text-green-200" />
+          <span className="text-xl md:text-2xl">
+            gagachituashvili7@gmail.com
+          </span>
         </div>
       </article>
     </section>
