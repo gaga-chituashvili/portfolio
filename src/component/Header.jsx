@@ -1,6 +1,6 @@
 import React from "react";
 import myimg from "./img/myimg1.jpeg";
-import CV from "../cv/Gaga_Chituashvili_CV.pdf";
+import CV from "../cv/Gaga Chituashvili_CV.pdf";
 import CoverLetter from "./certificate/CoverLetter.pdf";
 import { ArrowDownToLine } from "lucide-react";
 
@@ -49,7 +49,7 @@ const Header = () => {
               <ArrowDownToLine className="w-5 text-gray-700" />
             </button>
           </a>
-          <a href={CV} download="Gaga_Chituashvili_CV.pdf">
+          <a href={CV} download="Gaga Chituashvili_CV.pdf">
             <button className="bg-slate-400 hover:bg-red-600 text-white font-bold py-2 px-6 sm:px-8 rounded-lg transition-all duration-300 flex items-center gap-2 hover:scale-105 transform">
               Resume
               <ArrowDownToLine className="w-5 text-gray-700" />
