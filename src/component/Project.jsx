@@ -4,8 +4,14 @@ import restaurant from "./img/restaurant.png";
 import kolhs from "./img/kolhs.png";
 import restaurant2 from "./img/restaurant2.png";
 import countries from "./img/countries1.png";
+import puzzle from "./img/puzzle.jpg";
 
 const projects = [
+  {
+    title: "Puzzle Game",
+    img: puzzle,
+    link: "https://puzzlegame111.netlify.app",
+  },
   {
     title: "Rest Countries",
     img: countries,
