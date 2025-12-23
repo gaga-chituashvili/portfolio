@@ -14,9 +14,9 @@ const Home = () => {
     <section className="home_page flex flex-col p-2 md:p-12 gap-y-36">
       <Header />
       <Skills />
-      <Education />
-      <Project />
       <Experience />
+      <Project />
+      <Education />
       <Contact />
       <Cover />
       <Social />
