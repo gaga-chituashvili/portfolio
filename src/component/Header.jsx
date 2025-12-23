@@ -1,5 +1,5 @@
 import React from "react";
-import myimg from "./img/myimg1.jpeg";
+import gch from "./img/gch1.jpg";
 import CV from "../cv/Gaga Chituashvili_CV.pdf";
 import CoverLetter from "./certificate/CoverLetter.pdf";
 import { ArrowDownToLine } from "lucide-react";
@@ -38,8 +38,8 @@ const Header = () => {
 
       <article className="flex flex-col items-center w-full md:w-1/3 gap-6 animate-slideInRight">
         <img
-          className="h-48 sm:h-60 md:h-72 lg:h-80 object-cover rounded-2xl border-4 md:border-8 border-white shadow-xl hover:shadow-2xl transition duration-300 transform hover:scale-105"
-          src={myimg}
+          className="max-w-[15rem] h-48 sm:h-60 md:h-72 lg:h-80 object-cover rounded-2xl border-4 md:border-8 border-white shadow-xl hover:shadow-2xl transition duration-300 transform hover:scale-105"
+          src={gch}
           alt="My Portrait"
         />
         <div className="flex flex-col items-center gap-3">
