@@ -5,8 +5,14 @@ import kolhs from "./img/kolhs.png";
 import restaurant2 from "./img/restaurant2.png";
 import countries from "./img/countries1.png";
 import puzzle from "./img/puzzle.jpg";
+import weather from "./img/weather.jpg"
 
 const projects = [
+  {
+    title: "Weather Forecast",
+    img: weather,
+    link: "https://weatherforecast333.netlify.app",
+  },
   {
     title: "Puzzle Game",
     img: puzzle,
