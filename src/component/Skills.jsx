@@ -5,6 +5,8 @@ const skills = [
   { text: "Javascript" },
   { text: "Typescript" },
   { text: "React JS" },
+  { text: "Node JS" },
+  { text: "Express JS" },
   { text: "Python" },
   { text: "Django" },
   { text: "Tailwind Css" },
