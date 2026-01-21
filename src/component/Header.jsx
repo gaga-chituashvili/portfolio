@@ -1,5 +1,5 @@
 import React from "react";
-import gch from "./img/gch1.jpg";
+import gch from "./img/gch.jpg";
 import CV from "../cv/Gaga Chituashvili_CV.pdf";
 import CoverLetter from "./certificate/CoverLetter.pdf";
 import { ArrowDownToLine } from "lucide-react";
