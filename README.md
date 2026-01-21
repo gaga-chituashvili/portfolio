@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# 💼 Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my developer portfolio repository.
+This repository showcases my projects, skills, and experience as a backend / full-stack developer with a strong focus on Django, REST APIs, and Machine Learning integration.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 👋 About Me
 
-### `npm start`
+Hi, I'm **Gaga** 👋
+I'm a passionate developer with experience in building scalable backend systems, RESTful APIs, and AI-powered applications.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I enjoy working on real-world problems, clean architecture, and continuously improving my technical skills.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠 Skills & Technologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend
 
-### `npm run build`
+* Python
+* Django
+* Django REST Framework
+* REST API design
+* Authentication (JWT, OAuth)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Frontend
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* HTML
+* CSS
+* JavaScript
+* React
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Machine Learning & AI
 
-### `npm run eject`
+* scikit-learn
+* NumPy
+* Pandas
+* ML model integration in Django
+* OpenAI / LLM APIs
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Database
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* SQLite
+* PostgreSQL
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### DevOps & Tools
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Git & GitHub
+* Gunicorn
+* WhiteNoise
+* Docker (basic)
+* Linux
+* Environment variables (.env)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📂 Featured Projects
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🧠 BRENE01
 
-### Code Splitting
+**Django REST API + Machine Learning**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* User management and authentication
+* Profile image upload
+* ML-based prediction endpoint
+* Scalable backend architecture
 
-### Analyzing the Bundle Size
+👉 Repository: `BRENE01`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+### 🚀 Other Projects
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* REST APIs for frontend integration
+* AI-powered backend services
+* Business-oriented web applications
 
-### Advanced Configuration
+(More projects coming soon)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🎯 Goals
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* Build production-ready backend systems
+* Develop AI-powered web applications
+* Grow as a full-stack & ML-focused developer
+* Contribute to open-source projects
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📫 Contact
+
+* 📧 Email: [gagachituashvili7@gmail.com](mailto:gagachituashvili7@gmail.com)
+* 💼 LinkedIn: [https://www.linkedin.com/in/gaga-chituashvili-222551320/](https://www.linkedin.com/in/gaga-chituashvili-222551320/)
+* 🐙 GitHub: [https://github.com/gaga-chituashvili](https://github.com/gaga-chituashvili)
+* 🌐 Portfolio: [https://gchportfolio.ge](https://gchportfolio.ge)
+
+---
+
+## 📜 License
+
+This portfolio is open for review and inspiration.
+All individual projects may have their own licenses.
