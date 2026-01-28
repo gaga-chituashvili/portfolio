@@ -1,24 +1,52 @@
 import Marquee from "react-fast-marquee";
 
 const skills = [
-  { text: "Html & Css" },
-  { text: "Javascript" },
-  { text: "Typescript" },
-  { text: "React JS" },
-  { text: "Node JS" },
-  { text: "Express JS" },
-  { text: "Python" },
-  { text: "Django" },
-  { text: "Tailwind Css" },
-  { text: "Responsive Design / Mobile" },
-  { text: "RESTful APIs" },
-  { text: "Axios / Fetch" },
-  { text: "DRF" },
-  { text: "Git / GitHub" },
-  { text: "Netlify / Vercel / Render" },
-  { text: "SQL" },
-  { text: "API Integration" },
-  { text: "SEO" },
+  [
+    // Frontend
+    { text: "HTML & CSS" },
+    { text: "JavaScript" },
+    { text: "TypeScript" },
+    { text: "React.js" },
+    { text: "Vite" },
+    { text: "Tailwind CSS" },
+    { text: "Responsive Design / Mobile" },
+    { text: "State Management" },
+    { text: "React Hooks" },
+
+    // Backend
+    { text: "Node.js" },
+    { text: "Express.js" },
+    { text: "Python" },
+    { text: "Django" },
+    { text: "Django REST Framework (DRF)" },
+    { text: "RESTful APIs" },
+    { text: "Authentication & Authorization (JWT)" },
+
+    // Database
+    { text: "SQL" },
+    { text: "PostgreSQL" },
+    { text: "Database Design" },
+    { text: "DataGrip" },
+
+    // API & Testing
+    { text: "Postman" },
+    { text: "Axios / Fetch" },
+    { text: "API Integration" },
+
+    // DevOps & Deployment
+    { text: "Git / GitHub" },
+    { text: "Environment Variables" },
+    { text: "Netlify / Vercel / Render" },
+    { text: "CI/CD" },
+    { text: "Docker" },
+
+    // UI / UX & Extras
+    { text: "Figma to Code" },
+    { text: "Accessibility" },
+    { text: "SEO" },
+    { text: "Performance Optimization" },
+    { text: "AI API Integration" },
+  ],
 ];
 
 const Skills = () => {
