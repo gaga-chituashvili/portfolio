@@ -39,6 +39,11 @@ const skills = [
   { text: "CI/CD" },
   { text: "Docker" },
 
+  // Collaboration & Project Management
+  { text: "Jira" },
+  { text: "ClickUp" },
+  { text: "Miro" },
+
   // UI / UX & Extras
   { text: "Figma to Code" },
   { text: "Accessibility" },
