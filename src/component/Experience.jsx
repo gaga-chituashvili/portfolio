@@ -2,7 +2,7 @@ import React from "react";
 
 const experienceData = [
   {
-    title: "Full-stack / AI Developer",
+    title: "Full-stack",
     company: "Readya",
     date: "2026 - Present",
   },
