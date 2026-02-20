@@ -1,7 +1,7 @@
 import React from "react";
 import gch from "./img/gch.jpg";
 import CV from "../cv/Gaga Chituashvili_CV.pdf";
-import CoverLetter from "./certificate/CoverLetter.pdf";
+import CoverLetter from "../cv/Cover Letter.pdf";
 import { ArrowDownToLine } from "lucide-react";
 
 const splitText = (text) =>
