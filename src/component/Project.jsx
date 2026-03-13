@@ -12,7 +12,7 @@ const projects = [
   {
     title: "Luna",
     img: coffeecover,
-    link: "https://luna333.netlify.app/contact",
+    link: "https://luna333.netlify.app",
   },
   {
     title: "Weather Forecast",
