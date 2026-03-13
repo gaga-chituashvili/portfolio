@@ -5,9 +5,15 @@ import kolhs from "./img/kolhs.png";
 import restaurant2 from "./img/restaurant2.png";
 import countries from "./img/countries1.png";
 import puzzle from "./img/puzzle.jpg";
-import weather from "./img/weather.jpg"
+import weather from "./img/weather.jpg";
+import coffeecover from "./img/coffeecover.jpg";
 
 const projects = [
+  {
+    title: "Luna",
+    img: coffeecover,
+    link: "https://luna333.netlify.app/contact",
+  },
   {
     title: "Weather Forecast",
     img: weather,
