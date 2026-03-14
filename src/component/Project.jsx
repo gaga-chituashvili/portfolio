@@ -12,7 +12,7 @@ const projects = [
   {
     title: "Luna",
     img: coffeecover,
-    link: "https://luna-green-five.vercel.app",
+    link: "https://luna777.vercel.app",
   },
   {
     title: "Weather Forecast",
