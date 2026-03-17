@@ -2,18 +2,20 @@ import certificate1 from "../component/certificate/certificate1.pdf";
 import certificate2 from "../component/certificate/certificate2.pdf";
 import certificate3 from "../component/certificate/certificate3.pdf";
 import certificate4 from "../component/certificate/certificate4.pdf";
+import certificate5 from "../component/certificate/certificate5.pdf";
 import html_css from "../component/img/html_css.png";
 import js from "../component/img/js.png";
 import reactjs from "../component/img/reactjs.png";
 import python from "../component/img/python.png";
+import node from "../component/img/nodejs.png";
 
 export const educationData = [
   {
     title: "Full Stack Development - Node JS",
     school: "Academy of Digital Industries",
     date: "17/03/2026",
-    img: python,
-    pdf: certificate4,
+    img: node,
+    pdf: certificate5,
   },
   {
     title: "Full Stack Development - Python",
