@@ -1,55 +1,5 @@
 import React from "react";
-import guitar from "./img/guitar.jpg";
-import restaurant from "./img/restaurant.png";
-import kolhs from "./img/kolhs.png";
-import restaurant2 from "./img/restaurant2.png";
-import countries from "./img/countries1.png";
-import puzzle from "./img/puzzle.jpg";
-import weather from "./img/weather.jpg";
-import coffeecover from "./img/coffeecover.jpg";
-
-const projects = [
-  {
-    title: "Luna",
-    img: coffeecover,
-    link: "https://luna777.vercel.app",
-  },
-  {
-    title: "Weather Forecast",
-    img: weather,
-    link: "https://weatherforecast333.netlify.app",
-  },
-  {
-    title: "Puzzle Game",
-    img: puzzle,
-    link: "https://puzzlegame111.netlify.app",
-  },
-  {
-    title: "Rest Countries",
-    img: countries,
-    link: "https://restcountries3.netlify.app",
-  },
-  {
-    title: "Georgian Restaurant",
-    img: restaurant2,
-    link: "https://georgianrestaurant.onrender.com",
-  },
-  {
-    title: "Kolh's Shop",
-    img: kolhs,
-    link: "https://kolhs.netlify.app",
-  },
-  {
-    title: "Grilli Restaurant",
-    img: restaurant,
-    link: "https://grillirestaurant3.netlify.app",
-  },
-  {
-    title: "Guitar Shop",
-    img: guitar,
-    link: "https://guitarr.netlify.app",
-  },
-];
+import { projects } from "../data/project";
 
 const Project = () => {
   return (
