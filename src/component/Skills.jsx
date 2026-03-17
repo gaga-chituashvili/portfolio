@@ -1,20 +1,30 @@
+import React from "react";
+import { motion } from "framer-motion";
 import Marquee from "react-fast-marquee";
 import { skills } from "../data/skill";
 
 const Skills = () => {
   return (
-    <section className="h-28 bg-gradient-to-r from-slate-200 to-slate-100 shadow-md rounded-xl flex items-center overflow-hidden relative animate-skillFadeIn">
-      <Marquee speed={50} pauseOnHover={true} gradient={false}>
+    <motion.section
+      initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      viewport={{ once: true }}
+      className="h-28 bg-gradient-to-r from-slate-200 to-slate-100 shadow-md rounded-xl flex items-center overflow-hidden relative"
+    >
+      <Marquee speed={50} pauseOnHover gradient={false}>
         {skills.map((skill, index) => (
-          <span
+          <motion.span
             key={index}
-            className="mx-6 text-2xl font-semibold text-gray-700 hover:text-gray-900 transition-colors duration-300 cursor-pointer"
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.9 }}
+            className="mx-6 text-2xl font-semibold text-gray-700 hover:text-gray-900 cursor-pointer"
           >
             {skill.text}
-          </span>
+          </motion.span>
         ))}
       </Marquee>
-    </section>
+    </motion.section>
   );
 };
 
