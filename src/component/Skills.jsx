@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { socials } from "../data/social";
 
+
 const Social = () => {
   return (
     <section className="flex gap-8 items-center justify-center p-8">
