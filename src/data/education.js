@@ -7,7 +7,7 @@ import js from "../component/img/js.png";
 import reactjs from "../component/img/reactjs.png";
 import python from "../component/img/python.png";
 
-const educationData = [
+export const educationData = [
   {
     title: "Full Stack Development - Node JS",
     school: "Academy of Digital Industries",
@@ -51,5 +51,3 @@ const educationData = [
     pdf: null,
   },
 ];
-
-export default educationData;

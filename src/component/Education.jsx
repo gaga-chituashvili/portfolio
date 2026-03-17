@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import educationData from "../data/education";
+import { educationData } from "../data/education";
 
 const Education = () => {
   const [selectedPdf, setSelectedPdf] = useState(false);
