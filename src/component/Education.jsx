@@ -10,6 +10,13 @@ import python from "./img/python.png";
 
 const educationData = [
   {
+    title: "Full Stack Development - Node JS",
+    school: "Academy of Digital Industries",
+    date: "17/03/2026",
+    img: python,
+    pdf: certificate4,
+  },
+  {
     title: "Full Stack Development - Python",
     school: "Academy of Digital Industries",
     date: "02/05/2025",
