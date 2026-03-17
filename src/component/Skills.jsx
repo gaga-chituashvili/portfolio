@@ -1,30 +1,21 @@
-import React from "react";
-import { motion } from "framer-motion";
-import { socials } from "../data/social";
+import Marquee from "react-fast-marquee";
+import { skills } from "../data/skill";
 
-
-const Social = () => {
+const Skills = () => {
   return (
-    <section className="flex gap-8 items-center justify-center p-8">
-      {socials.map((social, index) => (
-        <motion.div
-          key={index}
-          onClick={() =>
-            window.open(social.url, "_blank", "noopener,noreferrer")
-          }
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4, delay: index * 0.1 }}
-          viewport={{ once: true }}
-          whileHover={{ scale: 1.2, rotate: 5 }}
-          whileTap={{ scale: 0.9 }}
-          className="cursor-pointer"
-        >
-          {social.icon}
-        </motion.div>
-      ))}
+    <section className="h-28 bg-gradient-to-r from-slate-200 to-slate-100 shadow-md rounded-xl flex items-center overflow-hidden relative animate-skillFadeIn">
+      <Marquee speed={50} pauseOnHover={true} gradient={false}>
+        {skills.map((skill, index) => (
+          <span
+            key={index}
+            className="mx-6 text-2xl font-semibold text-gray-700 hover:text-gray-900 transition-colors duration-300 cursor-pointer"
+          >
+            {skill.text}
+          </span>
+        ))}
+      </Marquee>
     </section>
   );
 };
 
-export default Social;
+export default Skills;
