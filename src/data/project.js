@@ -6,8 +6,14 @@ import countries from "../component/img/countries1.png";
 import puzzle from "../component/img/puzzle.jpg";
 import weather from "../component/img/weather.jpg";
 import coffeecover from "../component/img/coffeecover.jpg";
+import readyacover from "../component/img/readyacover.jpg";
 
 export const projects = [
+  {
+    title: "Readya",
+    img: readyacover,
+    link: "https://www.readya.me",
+  },
   {
     title: "Luna",
     img: coffeecover,
