@@ -1,13 +1,13 @@
-import certificate1 from "../component/certificate/certificate1.pdf";
-import certificate2 from "../component/certificate/certificate2.pdf";
-import certificate3 from "../component/certificate/certificate3.pdf";
-import certificate4 from "../component/certificate/certificate4.pdf";
-import certificate5 from "../component/certificate/certificate5.pdf";
-import html_css from "../component/img/html_css.png";
-import js from "../component/img/js.png";
-import reactjs from "../component/img/reactjs.png";
-import python from "../component/img/python.png";
-import node from "../component/img/nodejs.png";
+import certificate1 from "../certificate/certificate1.pdf";
+import certificate2 from "../certificate/certificate2.pdf";
+import certificate3 from "../certificate/certificate3.pdf";
+import certificate4 from "../certificate/certificate4.pdf";
+import certificate5 from "../certificate/certificate5.pdf";
+import html_css from "../assets/html_css.png";
+import js from "../assets/js.png";
+import reactjs from "../assets/reactjs.png";
+import python from "../assets/python.png";
+import node from "../assets/nodejs.png";
 
 export const educationData = [
   {

@@ -1,14 +1,20 @@
-import guitar from "../component/img/guitar.jpg";
-import restaurant from "../component/img/restaurant.png";
-import kolhs from "../component/img/kolhs.png";
-import restaurant2 from "../component/img/restaurant2.png";
-import countries from "../component/img/countries1.png";
-import puzzle from "../component/img/puzzle.jpg";
-import weather from "../component/img/weather.jpg";
-import coffeecover from "../component/img/coffeecover.jpg";
-import readyacover from "../component/img/readyacover.jpg";
+import guitar from "../assets/guitar.jpg";
+import restaurant from "../assets/restaurant.png";
+import kolhs from "../assets/kolhs.png";
+import restaurant2 from "../assets/restaurant2.png";
+import countries from "../assets/countries1.png";
+import puzzle from "../assets/puzzle.jpg";
+import weather from "../assets/weather.jpg";
+import coffeecover from "../assets/coffeecover.jpg";
+import readyacover from "../assets/readyacover.jpg";
+import torpedo_logo from "../assets/Torpedo_Logo.png";
 
 export const projects = [
+  {
+    title: "TorpedoFC",
+    img: torpedo_logo,
+    link: "https://torpedo-fc-six.vercel.app",
+  },
   {
     title: "Readya",
     img: readyacover,

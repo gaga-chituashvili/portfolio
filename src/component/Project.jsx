@@ -26,7 +26,7 @@ const Project = () => {
             viewport={{ once: true }}
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
-            className="flex flex-col gap-4 p-4 border border-gray-300 rounded-2xl shadow-md hover:shadow-2xl cursor-pointer bg-slate-200 w-full md:w-[40rem]"
+            className="flex flex-col gap-4 p-4 border border-gray-300 rounded-2xl shadow-md hover:shadow-2xl cursor-pointer bg-slate-200 w-full md:w-[40rem] ob"
           >
             <motion.img
               className="w-full h-[20rem] object-cover rounded-xl"
