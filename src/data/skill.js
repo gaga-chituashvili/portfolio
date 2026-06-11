@@ -4,6 +4,7 @@ export const skills = [
   { text: "JavaScript" },
   { text: "TypeScript" },
   { text: "React.js" },
+  { text: "Next.js" },
   { text: "Vite" },
   { text: "Tailwind CSS" },
   { text: "Responsive Design / Mobile" },
@@ -13,6 +14,7 @@ export const skills = [
   // Backend
   { text: "Node.js" },
   { text: "Express.js" },
+  { text: "Nest.js" },
   { text: "Python" },
   { text: "Django" },
   { text: "Django REST Framework (DRF)" },
