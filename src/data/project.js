@@ -7,13 +7,13 @@ import puzzle from "../assets/puzzle.jpg";
 import weather from "../assets/weather.jpg";
 import coffeecover from "../assets/coffeecover.jpg";
 import readyacover from "../assets/readyacover.jpg";
-import torpedo_logo from "../assets/Torpedo_Logo.png";
+import dinamologo from "../assets/Torpedo_Logo.png";
 
 export const projects = [
   {
-    title: "TorpedoFC",
-    img: torpedo_logo,
-    link: "https://torpedo-fc-six.vercel.app",
+    title: "Dinamo Tbilisi",
+    img: dinamologo,
+    link: "https://dinamo-tb.vercel.app",
   },
   {
     title: "Readya",
