@@ -7,7 +7,7 @@ import puzzle from "../assets/puzzle.jpg";
 import weather from "../assets/weather.jpg";
 import coffeecover from "../assets/coffeecover.jpg";
 import readyacover from "../assets/readyacover.jpg";
-import dinamologo from "../assets/Torpedo_Logo.png";
+import dinamologo from "../assets/Dinamo-Tbilisi.png";
 
 export const projects = [
   {
