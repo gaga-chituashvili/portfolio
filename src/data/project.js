@@ -13,7 +13,7 @@ export const projects = [
   {
     title: "Dinamo Tbilisi",
     img: dinamologo,
-    link: "https://dinamo-tb.vercel.app",
+    link: "https://dinamo-fc.vercel.app",
   },
   {
     title: "Readya",
